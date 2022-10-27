@@ -1,0 +1,55 @@
+.videoFooter {
+  position: relative;
+  margin-left: 40px;
+  bottom: 50px;
+}
+
+.videoFooter__text {
+  flex: 1;
+  position: absolute;
+  bottom: 0;
+  color: white;
+}
+
+.videoFooter__text > h3 {
+  padding-bottom: 20px;
+}
+
+.videoFooter__text > p {
+  padding-bottom: 20px;
+}
+
+.videoFooter__ticker > .ticker {
+  height: fit-content;
+  margin-left: 30px;
+  width: 60%;
+}
+
+.videoFooter__icon {
+  position: absolute;
+}
+
+.videoFooter__ticker h1 {
+  padding-top: 7px;
+  font-size: 12px;
+}
+
+.videoFooter__record {
+  animation: App-logo-spin infinite 5s linear;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-top: 20px;
+  margin-right: 20px;
+  filter: invert(1);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
